@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Your Name / Site Titl"
 title_separator          : "-"
 name                     : &name "RAHEEL ABBAS"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Graduate Researcher at Soft Robotics & Intelligent Materials (SRIM) Lab"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,12 @@ author:
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "BS Electrical Engineering (2021 - 2025)
+                      Pakistan Institute of Engineering & Applied Sciences (PIEAS)
+                      MS Mechanical Engineering (2025 - Present)
+                      Korea Advanced Institute of Science & Technology (KAIST)"
+  location         : "Daejeon, South Korea"
+  employer         : "-"
   uri              : # URL
   email            : "raheelabbass100@gmail.com" 
 
