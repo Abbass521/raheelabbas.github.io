@@ -3,25 +3,115 @@
 <head>
     <title>Your Name</title>
     <meta charset="UTF-8">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 40px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Your Name</h1>
-    <p>PhD Student / Researcher</p>
 
-    <h2>About</h2>
-    <p>Short bio about your research.</p>
+<div class="container">
 
-    <h2>Publications</h2>
-    <ul>
-        <li>Paper title, journal, year</li>
-    </ul>
+    <div class="header">
+        <img src="profile.jpg" class="profile-img">
+        <div>
+            <h1>Your Name</h1>
+            <p>PhD Student / Researcher</p>
+            <p>KAIST – Soft Robotics & Intelligent Materials Lab</p>
+        </div>
+    </div>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Project description</li>
-    </ul>
+    <div class="card">
+        <h2>About</h2>
+        <p>
+            I work on shape memory alloys, TPMS metamaterials, and soft robotic systems.
+        </p>
+    </div>
 
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
+    <div class="card">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Shape Memory Alloy Actuators</li>
+            <li>Auxetic Metamaterials</li>
+            <li>Soft Robotics</li>
+            <li>Energy Storage Systems</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Publications</h2>
+        <ul>
+            <li><b>Paper title</b>, Journal, 2025</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li>SMA-based wearable actuator</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>
+            <a href="#">Google Scholar</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+    </div>
+
+</div>
+
 </body>
 </html>
